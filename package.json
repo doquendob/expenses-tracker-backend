@@ -1,0 +1,31 @@
+{
+  "name": "expenses-tracker-backend",
+  "version": "1.0.0",
+  "description": "Expenses tracker Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doquendob/expenses-tracker-backend.git"
+  },
+  "keywords": [
+    "ES"
+  ],
+  "author": "doquendob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doquendob/expenses-tracker-backend/issues"
+  },
+  "homepage": "https://github.com/doquendob/expenses-tracker-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "color": "^4.2.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.2.0"
+  }
+}
